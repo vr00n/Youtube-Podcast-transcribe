@@ -5,3 +5,5 @@
    * `ffmpeg -i file.wav -f segment -segment_time 30 -c copy file%03d.wav`
 3. Git clone `https://github.com/Uberi/speech_recognition`.
 4. Use uberi's `speech.py` (enable Google only) on each chunk
+
+Tested on https://www.youtube.com/watch?v=OYJ89vE-QfQ - check RESULT.TXT for results
