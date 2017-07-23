@@ -11,6 +11,6 @@
 Tests
 
 * Elon Musk with Governors - https://www.youtube.com/watch?v=OYJ89vE-QfQ - see `Jul-22-17-RESULT.TXT`
-* Visualized the transcript here: https://voyant-tools.org/?corpus=2de4ddec8fe29d707afc40ece4f45d7b
+   * Visualized the transcript here: https://voyant-tools.org/?corpus=2de4ddec8fe29d707afc40ece4f45d7b
 
 * Bezos + Mossberg at Code '17 - https://www.youtube.com/watch?v=VAM6b0UkEYw - see `BEZOS-CODE-17.TXT`
