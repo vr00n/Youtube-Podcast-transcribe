@@ -1,6 +1,9 @@
 #!/bin/bash
 time=1
-for i in `ls -1 ELON*.wav`
+youtube-dl -o 'audio.%(ext)s' --extract-audio --audio-format wav $1
+ffmpeg -i audio.wav -f segment -segment_time 30 -c copy audio-%03d.wav
+rm audio.wav
+for i in `ls -1 audio*.wav`
 do
 num=`echo $i | awk -F. '{print $1}'| tail -c 4`
 num="$((10#$num * 1))"
