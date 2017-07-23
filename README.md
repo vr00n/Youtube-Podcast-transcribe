@@ -1,7 +1,7 @@
 # Transcribing Youtube videos
 
-1. Install `youtube-dl` from here: https://github.com/rg3/youtube-dl/blob/master/README.md#readme
-   * FYI - a 1 hour video becomes a 600-700mb wav file
+1. Install `youtube-dl` from here: https://github.com/rg3/youtube-dl/
+   * FYI - a 1 hour video converts into a 600-700mb wav file
 2. Create a Google API Service Account from https://cloud.google.com/docs/authentication/getting-started#creating_the_service_account
    * Enter the JSON key into `transcribe.py` where indicated.
 3.  Execute `./transcribe.sh YOUTUBE-URL`
