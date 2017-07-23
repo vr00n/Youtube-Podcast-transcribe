@@ -6,4 +6,7 @@
 3. Git clone `https://github.com/Uberi/speech_recognition`.
 4. Use uberi's `speech.py` (enable Google only) on each chunk
 
-Tested on https://www.youtube.com/watch?v=OYJ89vE-QfQ - check RESULT.TXT for results
+
+-- 
+* Tested on https://www.youtube.com/watch?v=OYJ89vE-QfQ - check RESULT.TXT for results
+* Visualized the transcript here: https://voyant-tools.org/?corpus=2de4ddec8fe29d707afc40ece4f45d7b
