@@ -12,5 +12,5 @@
 
 
 -- 
-* Tested on https://www.youtube.com/watch?v=OYJ89vE-QfQ - see Jul-22-17-RESULT
+* Tested on https://www.youtube.com/watch?v=OYJ89vE-QfQ - see `Jul-22-17-RESULT.TXT`
 * Visualized the transcript here: https://voyant-tools.org/?corpus=2de4ddec8fe29d707afc40ece4f45d7b
