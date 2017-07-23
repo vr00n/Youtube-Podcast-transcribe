@@ -7,8 +7,9 @@
 3.  Execute `./transcribe.sh YOUTUBE-URL`
 4. `Mon-DD-YY-RESULTS.txt` is your result file.
 
--- 
-# Tests
+
+Tests
+
 * Elon Musk with Governors - https://www.youtube.com/watch?v=OYJ89vE-QfQ - see `Jul-22-17-RESULT.TXT`
 * Visualized the transcript here: https://voyant-tools.org/?corpus=2de4ddec8fe29d707afc40ece4f45d7b
 
