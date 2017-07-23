@@ -8,7 +8,7 @@
    * Enter the JSON key into `transcribe.py` where indicated.
 4. Use `transcribe.sh` in the same folder as the wav chunks.
    * `./transcribe.sh`
-5. `Mon-DD-YYYY-RESULTS.txt` is your result file.
+5. `Mon-DD-YY-RESULTS.txt` is your result file.
 
 
 -- 
