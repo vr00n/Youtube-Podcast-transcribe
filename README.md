@@ -2,12 +2,17 @@
 
 HT to https://github.com/Uberi/speech_recognition
 
+## Requirements
 1. Install `youtube-dl` from here: https://github.com/rg3/youtube-dl/
    * FYI - a 1 hour video converts into a 600-700mb wav file
 2. Create a Google API Service Account from https://cloud.google.com/docs/authentication/getting-started#creating_the_service_account
    * Enter the JSON key into `transcribe.py` where indicated.
-3.  Execute `./transcribe.sh YOUTUBE-URL`
-4. `Mon-DD-YY-RESULTS.txt` is your result file.
+   
+## Usage
+
+3.  Execute `./transcribe.sh file http link to file `
+3b. Execute `./transcribe youtube YOUTUBE-URL`
+4. `TimeStamp-RESULTS.txt` is your result file.
 
 
 Tests
