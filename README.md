@@ -11,7 +11,8 @@ HT to https://github.com/Uberi/speech_recognition
 ## Usage
 
 3.  Execute `./transcribe.sh file http link to file `
-3b. Execute `./transcribe youtube YOUTUBE-URL`
+   * Execute `./transcribe youtube YOUTUBE-URL`
+
 4. `TimeStamp-RESULTS.txt` is your result file.
 
 
