@@ -20,8 +20,8 @@ num=`echo $i | awk -F. '{print $1}'| tail -c 4`
 num="$((10#$num * 1))"
 time1=$((30*$num))
 time2=$((30*($num + 1)))
-echo `gdate -d "1970-01-01 00:00:00 UTC $time1 seconds" +"%M:%S"`-`gdate -d "1970-01-01 00:00:00 UTC $time2 seconds" +"%M:%S"`>>`date +%s`-RESULT.TXT
-python transcribe.py $i >>`date +%s`-RESULT.TXT
+echo `gdate -d "1970-01-01 00:00:00 UTC $time1 seconds" +"%M:%S"`-`gdate -d "1970-01-01 00:00:00 UTC $time2 seconds" +"%M:%S"`>>`date +%d-%m-%y`-RESULT.TXT
+python transcribe.py $i >>`date +%d-%m-%y`-RESULT.TXT
 done
 # if you want to remove all the wav chunks
 rm audio-*.wav
