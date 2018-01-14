@@ -3,9 +3,12 @@
 HT to https://github.com/Uberi/speech_recognition
 
 ## Requirements
-1. Install `youtube-dl` from here: https://github.com/rg3/youtube-dl/
+1. `pip install SpeechRecognition`
+2. `brew install coreutils`
+3. `pip install --upgrade google-api-python-client`
+4. Install `youtube-dl` from here: https://github.com/rg3/youtube-dl/
    * FYI - a 1 hour video converts into a 600-700mb wav file
-2. Create a Google API Service Account from https://cloud.google.com/docs/authentication/getting-started#creating_the_service_account
+5. Create a Google API Service Account from https://cloud.google.com/docs/authentication/getting-started#creating_the_service_account
    * Enter the JSON key into `transcribe.py` where indicated.
    
 ## Usage
