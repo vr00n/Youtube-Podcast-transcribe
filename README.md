@@ -14,7 +14,7 @@ HT to https://github.com/Uberi/speech_recognition
    
 ## Usage
 
-3.  For YOUTUBE `./transcribe youtube YOUTUBE-URL`
+3.  For YOUTUBE `./transcribe.sh youtube YOUTUBE-URL`
    * For PODCASTS `./transcribe.sh file PODCAST's-MP3-URL `
 
 4. `TimeStamp-RESULTS.txt` is your result file.
